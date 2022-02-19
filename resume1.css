@@ -1,0 +1,40 @@
+#back{
+    text-align: center;
+    background-color: aqua;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+h3{
+    font-size: 2vw;
+}
+p{
+    font-size: 2vw;
+}
+.line{
+    display: flex;
+    margin-left: 1vw;
+}
+#resname{
+    align-content: center;
+    font-size: 5vw;
+    color: rgb(221, 211, 211);
+    padding-top: 3vw;
+}
+#resname1{
+    background-color: rgb(21, 8, 56);
+}
+#resbranch{
+    color: aliceblue;
+    padding-top: -5vw;
+    padding-bottom: 1vw;
+    margin-top: -4vw;
+}
+#vertical{
+    width: 0.5vw;
+    height: 100vw;
+    position:relative;
+    background-color:rgb(21, 8, 56);
+    margin-left: 32vw;
+    margin-top: -21vw;
+    margin-right: 30vw;
+}

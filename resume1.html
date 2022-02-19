@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resume1.css">
+</head>
+<body>
+    <div id="back">
+        <div id="resname1"> 
+            <p id="resname"> </p>
+            <p id="resbranch"> </p>
+        </div>
+
+        <div  class="line">    
+        <h3>DOB :  </h3>
+            <p id="dob1"> </p>
+        </div>
+
+        <div  class="line">    
+        <h3>Mail-Id :  </h3> 
+            <p id="resmailid"> </p>
+        </div>
+
+        <div  class="line">    
+        <h3>Mobile Number :  </h3>
+            <p id="resmobnum"> </p>
+        </div>
+         
+        <div id="vertical"></div>
+               
+    </div>
+   
+    <script>
+        document.getElementById("resname").innerHTML=localStorage.getItem("resname");
+        document.getElementById("dob1").innerHTML=localStorage.getItem("dob1");
+        document.getElementById("resmailid").innerHTML=localStorage.getItem("resmailid");
+        document.getElementById("resmobnum").innerHTML=localStorage.getItem("resmobnum");
+        document.getElementById("resbranch").innerHTML=localStorage.getItem("resbranch");
+        
+    </script>
+</body>
+</html>
